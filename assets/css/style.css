@@ -12,7 +12,7 @@ body {
     color: #3a3a3a;
 }
 
-/*headings and logo */
+/* headings and logo */
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -24,4 +24,21 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: right;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+
 }
