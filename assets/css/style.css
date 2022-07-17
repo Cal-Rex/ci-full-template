@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -28,9 +29,11 @@ h1, h2 {
 
 /* navigation links */
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -60,8 +63,30 @@ h1, h2 {
 
 /*hero image*/
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
+    /* animation */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*hero img animation*/
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+}
 }
