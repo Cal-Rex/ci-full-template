@@ -215,3 +215,53 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
+/*footer*/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    margin: 1%;
+    color: #3a3a3a;
+}
+
+#facebook {
+    color: #3a3a3a;
+}
+#facebook i:hover {
+    color: #1877f2;
+}
+
+#twitter {
+    color: #3a3a3a;
+}
+#twitter i:hover {
+    color: rgb(29, 155, 240);
+}
+
+#youtube {
+    color: #3a3a3a;
+}
+#youtube i:hover {
+    color: #c00;
+}
+
+#instagram {
+    color: #3a3a3a;
+}
+#instagram i:hover {
+    color: peachpuff;
+}
+
